@@ -1,4 +1,4 @@
-# MSSC 2024 - Modelling Solid State Chemistry
+# MSSC2025 - Modelling Solid State Chemistry
 
 <div align="center">
   <img src="https://mssc.crystalsolutions.eu/wp-content/uploads/2025/02/logo_Full-1024x735.png" width="35%">
