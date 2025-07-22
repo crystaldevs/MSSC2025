@@ -25,8 +25,4 @@ For more information about the event, please visit the MSSC2025
 
 
 ## Contact
-If you have any questions or need further assistance, feel free to contact the 
-tutors that mantain this repository:
-- davide.mitoli@unito.it
-- giacomo.ambrogio@unito.it
-- filippo.bodo@unito.it
+If you have any questions or need further assistance, feel free to contact davide.mitoli@unito.it
