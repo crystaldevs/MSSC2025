@@ -1,0 +1,953 @@
+/home/erba/Mitoli/pub/bin/Linux-ifort_openmpi_i64_clut/std/Pcrystal
+/scratch/alessandro/tmp_p3198
+script started on node87
+Carbon dioxide - harmonic frequencies - Raman intensities
+MOLECULE
+24
+2
+6      0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+8      0.000000000000E+00  0.000000000000E+00  1.160586172321E+00
+FREQCALC
+NUMDERIV
+2
+RESTART
+INTENS
+INTRAMAN
+INTCPHF
+END
+END
+BASISSET
+POB-DZVP-REV2
+DFT
+B3LYP
+XXLGRID
+END
+TOLDEE
+10
+MAXCYCLE
+100
+END
+************************************************
+ANOTHER DROLLERY FILLED RUN OF THE CRYSTAL CODE!
+************************************************
+Wed 11 Sep 2024 06:13:58 PM CEST
+ PROCESS            0  OF           10  WORKING
+ PROCESS            9  OF           10  WORKING
+ PROCESS            7  OF           10  WORKING
+ PROCESS            8  OF           10  WORKING
+ PROCESS            2  OF           10  WORKING
+ PROCESS            5  OF           10  WORKING
+ PROCESS            6  OF           10  WORKING
+ PROCESS            1  OF           10  WORKING
+ PROCESS            3  OF           10  WORKING
+ PROCESS            4  OF           10  WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 11 09 2024 TIME 18:13:59.1
+ Carbon dioxide - harmonic frequencies - Raman intensities                       
+
+ MOLECULAR CALCULATION
+ POINT  GROUP  N. 24                  :  4/MMM  OR  D4H  
+ CORRESPONDING SPACE GROUP            :  P 4/M M M       
+
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CONVENTIONAL CELL:    2
+
+ INPUT COORDINATES
+
+ ATOM AT. N.              COORDINATES
+   1   6     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+   2   8     0.000000000000E+00  0.000000000000E+00  1.160586172321E+00
+
+ COORDINATES OF THE EQUIVALENT ATOMS (ANGSTROMS)
+
+ N. ATOM EQUIV AT. N.          X                  Y                  Z
+
+   1   1   1    6 C     0.00000000000E+00  0.00000000000E+00  0.00000000000E+00
+
+   2   2   1    8 O     0.00000000000E+00  0.00000000000E+00  1.16058617232E+00
+   3   2   2    8 O     0.00000000000E+00  0.00000000000E+00 -1.16058617232E+00
+
+ NUMBER OF SYMMETRY OPERATORS         :   16
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ FRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQ
+
+                       FREQUENCY CALCULATION
+
+ INFORMATION **** INPFREQ **** NUMERICAL DERIVATIVE OF GRADIENT OPTION           2
+ INFORMATION **** INPFREQ **** FREQUENCY CALCULATION RESTART(DATA FROM FREQINFO.DAT)
+ INFORMATION **** INPFREQ **** IR INTENSITIES EVALUATED THROUGH CPHF APPROACH
+ INFORMATION **** INPFREQ **** NEW DEFAULT - IMPOSING ECKART CONDITIONS TO THE HESSIAN
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    0
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    2 - ATOMS IN THE UNIT CELL:    3
+     ATOM             X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+      1 T   6 C     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T   8 O     0.000000000000E+00  0.000000000000E+00  1.160586172321E+00
+      3 F   8 O     0.000000000000E+00  0.000000000000E+00 -1.160586172321E+00
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****   16 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   3   3  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   4   4 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   5   5  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   6   6  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   7   8  0.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   8   7  0.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   9   9 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  10  10  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  11  11 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  12  12  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  13  13  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  14  14  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  15  16  0.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  16  15  0.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+
+ *******************************************************************************
+ STARTING BASIS SET HANDLING 
+ *******************************************************************************
+
+ Loading internal basis set: POB-DZVP-REV2       
+
+ Please cite in your publication:
+ D. Vilela Oliveira, M. F. Peintinger, J. Laun, and T. Bredow, J. Comput. Chem.,
+  40 (2019)                                                                     
+                                                                                
+                    
+
+ *******************************************************************************
+ LOCAL ATOMIC FUNCTIONS BASIS SET
+ *******************************************************************************
+   ATOM   X(AU)   Y(AU)   Z(AU)  N. TYPE  EXPONENT  S COEF   P COEF   D/F/G COEF
+ *******************************************************************************
+   1 C    0.000   0.000   0.000
+                                  1 S  
+                                         1.238E+03 5.457E-03 0.000E+00 0.000E+00
+                                         1.863E+02 4.064E-02 0.000E+00 0.000E+00
+                                         4.225E+01 1.803E-01 0.000E+00 0.000E+00
+                                         1.168E+01 4.632E-01 0.000E+00 0.000E+00
+                                         3.593E+00 4.409E-01 0.000E+00 0.000E+00
+                                  2 S  
+                                         4.687E-01 1.000E+00 0.000E+00 0.000E+00
+                                  3 S  
+                                         2.355E-01 1.000E+00 0.000E+00 0.000E+00
+                           4-     6 P  
+                                         9.468E+00 0.000E+00 3.839E-02 0.000E+00
+                                         2.010E+00 0.000E+00 2.112E-01 0.000E+00
+                                         5.477E-01 0.000E+00 5.133E-01 0.000E+00
+                           7-     9 P  
+                                         2.105E-01 0.000E+00 1.000E+00 0.000E+00
+                          10-    14 D  
+                                         5.286E-01 0.000E+00 0.000E+00 1.000E+00
+   2 O    0.000   0.000   2.193
+                                 15 S  
+                                         2.266E+03-5.343E-03 0.000E+00 0.000E+00
+                                         3.409E+02-3.989E-02 0.000E+00 0.000E+00
+                                         7.736E+01-1.785E-01 0.000E+00 0.000E+00
+                                         2.148E+01-4.643E-01 0.000E+00 0.000E+00
+                                         6.659E+00-4.431E-01 0.000E+00 0.000E+00
+                                 16 S  
+                                         8.479E-01 1.000E+00 0.000E+00 0.000E+00
+                                 17 S  
+                                         2.791E-01 1.000E+00 0.000E+00 0.000E+00
+                          18-    20 P  
+                                         1.772E+01 0.000E+00 4.339E-02 0.000E+00
+                                         3.864E+00 0.000E+00 2.309E-01 0.000E+00
+                                         1.048E+00 0.000E+00 5.138E-01 0.000E+00
+                          21-    23 P  
+                                         2.624E-01 0.000E+00 1.000E+00 0.000E+00
+                          24-    28 D  
+                                         4.790E-01 0.000E+00 0.000E+00 1.000E+00
+   3 O    0.000   0.000  -2.193
+
+ *******************************************************************************
+ FINISHED BASIS SET HANDLING 
+ *******************************************************************************
+
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+ INFORMATION **** READM2 **** NEW DEFAULT: FOCK/KS MATRIX MIXING SET TO 30 %
+ INFORMATION **** READM2 **** NEW DEFAULT: FULL DIRECT SCF MODE
+ INFORMATION **** READM2 **** NEW DEFAULT: COULOMB BIPOLAR BUFFER SET TO 32 Mb
+ INFORMATION **** READM2 **** NEW DEFAULT: EXCHANGE BIPOLAR BUFFER SET TO 32 Mb
+
+ *******************************************************************************
+ NEW DEFAULT: DFT INTEGRATION GRID INCREASED TO XLGRID
+ NEW DEFAULT: DIIS ACCELERATOR ACTIVE
+ USE KEYWORD NODIIS TO TURN IT OFF
+ *******************************************************************************
+
+ INFORMATION **** TOLDEE **** SCF TOL ON TOTAL ENERGY SET TO          10
+ INFORMATION **** MAXCYCLE **** MAX NUMBER OF SCF CYCLES SET TO         100
+ *******************************************************************************
+ N. OF ATOMS PER CELL         3  COULOMB OVERLAP TOL         (T1) 10**   -6
+ NUMBER OF SHELLS            18  COULOMB PENETRATION TOL     (T2) 10**   -6
+ NUMBER OF AO                42  EXCHANGE OVERLAP TOL        (T3) 10**   -6
+ N. OF ELECTRONS PER CELL    22  EXCHANGE PSEUDO OVP (F(G))  (T4) 10**   -6
+ CORE ELECTRONS PER CELL      6  EXCHANGE PSEUDO OVP (P(G))  (T5) 10**  -12
+ N. OF SYMMETRY OPERATORS    16  POLE ORDER IN MONO ZONE                  4
+ *******************************************************************************
+ TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(BECKE 88)[LEE-YANG-PARR]
+
+ NON-LOCAL WEIGHTING FACTOR (EXCHANGE) =           0.9000
+ NON-LOCAL WEIGHTING FACTOR [CORRELATION] =        0.8100
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    20.0000
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE  16;G SPACE  16
+
+ *******************************************************************************
+ MAX NUMBER OF SCF CYCLES     100  CONVERGENCE ON DELTAP        10**-20
+ WEIGHT OF F(I) IN F(I+1)      30% CONVERGENCE ON ENERGY        10**-10
+
+ DISK SPACE FOR EIGENVECTORS (FTN 10)        1764 REALS
+
+ SYMMETRY ADAPTION OF THE BLOCH FUNCTIONS ENABLED
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.14 TCPU        0.12
+
+ MATRIX SIZE: P(G)    1762, F(G)     894, P(G) IRR     558, F(G) IRR     554
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.14 TCPU        0.12
+
+ NEIGHBORS OF THE NON-EQUIVALENT ATOMS
+
+ N = NUMBER OF NEIGHBORS AT DISTANCE R
+    ATOM  N     R/ANG      R/AU   NEIGHBORS (ATOM LABELS AND CELL INDICES)
+   1 C    2     1.1606     2.1932    2 O    0 0 0    3 O    0 0 0
+
+   2 O    1     1.1606     2.1932    1 C    0 0 0
+   2 O    1     2.3212     4.3864    3 O    0 0 0
+
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   1
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.14 TCPU        0.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.14 TCPU        0.12
+
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *         FFFFF  RRRR   EEEE   QQQ   U   U  EEEE  N   N   CCC  Y   Y          *
+ *         F      R   R  E     Q   Q  U   U  E     NN  N  C      Y Y           *
+ *         FFF    RRRR   EEEE  Q   Q  U   U  EEEE  N N N  C       Y            *
+ *         F      R   R  E     Q  QQ  U   U  E     N  NN  C       Y            *
+ *         F      R   R  EEEE   QQ Q   UUU   EEEE  N   N   CCC    Y            *
+ *                                                                             *
+ *                                                                             *
+ * CALCULATION OF PHONON FREQUENCIES AT THE GAMMA POINT.                       *
+ *                                                                             *
+ * SYMMETRY IS EXPLOITED TO BUILD THE TOTAL HESSIAN MATRIX.                    *
+ * (F. PASCALE PHD THESIS TURIN-PARIS 2002)                                    *
+ *                                                                             *
+ *******************************************************************************
+
+
+ * INTENSITIES COMPUTED VIA THE CPHF ANALYTICAL APPROACH                       *
+ *                                                                             *
+ * REFERENCES TO BE QUOTED WHEN USING THIS MODULE:                             *
+ *                                                                             *
+ * F. Pascale, C.M. Zicovich-Wilson, F. Lopez, B. Civalleri                    *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of crystalline                 *
+ * compounds and its implementation in the CRYSTAL code                        *
+ * J. Comput. Chem. 25 (2004) 888-897                                          *
+ *                                                                             *
+ * C.M. Zicovich-Wilson, F. Pascale, C. Roetti, V.R. Saunders,                 *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of alpha-quartz:               *
+ * the effect of hamiltonian and basis set                                     *
+ * J. Comput. Chem. 25 (2004) 1873-1881                                        *
+ *******************************************************************************
+
+
+ *                                                                             *
+ * FOR THE ANALYTICAL IR INTENSITIES MODULE PLEASE CITE:                       *
+ *                                                                             *
+ * L. Maschio, B. Kirtman, R. Orlando, M. Rerat,                               *
+ * Ab initio analytical infrared intensities for periodic systems              *
+ * through a coupled perturbed Hartree-Fock/Kohn-Sham method                   *
+ * J. Chem. Phys. 137, 204113 (2012)                                           *
+ *******************************************************************************
+
+
+
+ ATOMS ISOTOPIC MASS (AMU) FOR FREQUENCY CALCULATION 
+
+    1 C      12.0000    2 O      15.9949    3 O      15.9949
+
+ INFORMATION CONCERNING THE SCF+GRADIENT CALCULATIONS REQUIRED FOR
+ GENERATING FREQUENCIES. IN PRINCIPLE 3N+1 SCF + GRADIENT
+ CALCULATIONS  ARE REQUIRED;
+ FOR EACH OF THEM THE REMAINING POINT SYMMETRY IS INDICATED.
+ POINT SYMMETRY PERMITS TO GENERATE GRADIENTS FOR DISPLACEMENT B 
+ STARTING FROM THE GRADIENT GENERATED BY DISPLACEMENT A.
+
+   N   LABEL SYMBOL DISPLACEMENT     SYM. 
+
+   1     EQUILIBRIUM GEOMETRY           16
+
+   2      1   C            DX        GENERATED BY TRANSLATIONAL INVARIANCE
+   3      1   C            DY        GENERATED BY TRANSLATIONAL INVARIANCE
+   4      1   C            DZ        GENERATED BY TRANSLATIONAL INVARIANCE
+   5      2   O            DX           2
+   6      2   O            DY        GENERATED FROM LINE X WITH OP   7
+   7      2   O            DZ           8
+ USE OF RESIDUAL SYMMETRY AFTER DISPLACEMENT
+
+ NUMERICAL GRADIENT COMPUTED WITH A DOUBLE DISPLACEMENT (+-DX) FOR EACH
+ CARTESIAN COORDINATE WITH RESPECT TO THE EQUILIBRIUM CONFIGURATION
+ DX=  0.003 ANGSTROM
+ NUMBER OF IRREDUCIBLE ATOMS                     2
+ NUMBER OF SCF+GRADIENT CALCULATIONS             5
+
+  ATOM  SYMOP  ORDER
+    1     16      4
+    2      8      4
+
+ ATOM  : IRREDUCIBLE ATOM
+ SYMOP : NUMBER OF SYMMETRY OPERATORS THAT DOESN'T MOVE THE IRREDUCIBLE ATOM
+ ORDER : MAXIMUM ORDER AMONG THE OPERATORS OF THE IRREDUCIBLE ATOM
+
+ *******************************************************************************
+
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE  16;G SPACE  16
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.14 TCPU        0.12
+
+ MATRIX SIZE: P(G)    1762, F(G)     894, P(G) IRR     558, F(G) IRR     554
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.14 TCPU        0.12
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   1
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.14 TCPU        0.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.14 TCPU        0.12
+
+         THE FIRST POINT IS RESTORED FROM THE FREQINFO.DAT
+
+
+ RESTART FROM  AN INCOMPLETE HESSIAN MATRIX
+
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                   FORCE CONSTANT MATRIX - NUMERICAL ESTIMATE
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ MAX ABS(DGRAD): MAXIMUM ABSOLUTE GRADIENT DIFFERENCE WITH RESPECT TO
+                 THE CENTRAL POINT
+ DE:             ENERGY DIFFERENCE WITH RESPECT TO THE CENTRAL POINT
+                 (DE IS EXPECTED TO BE POSITIVE FOR ALL DISPLACEMENTS)
+
+   ATOM      MAX ABS(DGRAD)       TOTAL ENERGY (AU)  N.CYC      DE       SYM
+    CENTRAL POINT             -1.883373270937E+02     0     0.0000E+00    16
+    2 O  DX                   RESTORED FROM A PREV. HESS. MATRIX
+    2 O  DX                   RESTORED FROM A PREV. HESS. MATRIX
+    2 O  DY                   GENERATED FROM A PREVIOUS LINE
+    2 O  DZ                   RESTORED FROM A PREV. HESS. MATRIX
+    2 O  DZ                   RESTORED FROM A PREV. HESS. MATRIX
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE  16;G SPACE  16
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.15 TCPU        0.13
+
+ MATRIX SIZE: P(G)    1762, F(G)     894, P(G) IRR     558, F(G) IRR     554
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.15 TCPU        0.13
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   1
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.15 TCPU        0.13
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.15 TCPU        0.13
+
+ ATOMIC BORN CHARGE TENSOR (UNITS OF e, ELECTRON CHARGE).
+ DYNAMIC CHARGE = 1/3 * TRACE .
+
+ ATOM   1 C  DYNAMIC CHARGE     1.198913
+
+              1           2           3
+   1     6.6130E-01  0.0000E+00  0.0000E+00
+   2     0.0000E+00  6.6130E-01  0.0000E+00
+   3     0.0000E+00  0.0000E+00  2.2741E+00
+
+ ATOM   2 O  DYNAMIC CHARGE    -0.599456
+
+              1           2           3
+   1    -3.3065E-01  3.2312E-27  0.0000E+00
+   2    -3.2312E-27 -3.3065E-01  0.0000E+00
+   3     0.0000E+00  0.0000E+00 -1.1371E+00
+
+ ATOM   3 O  DYNAMIC CHARGE    -0.599456
+
+              1           2           3
+   1    -3.3065E-01 -3.2312E-27  0.0000E+00
+   2     3.2312E-27 -3.3065E-01  0.0000E+00
+   3     0.0000E+00  0.0000E+00 -1.1371E+00
+
+ +++ SYMMETRY ADAPTION OF VIBRATIONAL MODES +++
+
+ SYMMETRY INFORMATION:
+ K-LITTLE GROUP: CLASS TABLE, CHARACTER TABLE.
+ IRREP-(DIMENSION, NO. IRREDUCIBLE SETS)
+ [WARNINGS: (1) ONLY ACTIVE IRREPS ARE GENERATED AND LISTED.
+            (2) ONLY RELEVANT CLASSES ARE CONSIDERED IN THE CHARACTER TABLE
+            (3) SYMBOLS MAY NOT FULLY COINCIDE WITH THOSE FROM TEXT BOOKS.]
+
+ (P, D, RP, RD, STAND FOR PAIRING, DOUBLING, REAL PAIRING AND REAL DOUBLING 
+ OF THE IRREPS (SEE MANUAL))
+
+ CLASS  | GROUP OPERATORS (SEE SYMMOPS KEYWORD)
+ --------------------------------------------------------------------
+ C2     |   2;
+ C2'    |   3;   4;
+ C2''   |   5;   6;
+ C4     |   7;   8;
+ I      |   9;
+ SGH    |  10;
+ SGV    |  11;  12;
+ SGV'   |  13;  14;
+ S4     |  15;  16;
+
+ IRREP/CLA      E     C2    C2'   C2''     C4      I    SGH    SGV   SGV'     S4
+ -------------------------------------------------------------------------------
+  MULTIP |      1      1      2      2      2      1      1      2      2      2
+ -------------------------------------------------------------------------------
+    A1g  |   1.00   1.00   1.00   1.00   1.00   1.00   1.00   1.00   1.00   1.00
+    Eg   |   2.00  -2.00   0.00   0.00   0.00   2.00  -2.00   0.00   0.00   0.00
+    A2u  |   1.00   1.00  -1.00  -1.00   1.00  -1.00  -1.00   1.00   1.00  -1.00
+    Eu   |   2.00  -2.00   0.00   0.00   0.00  -2.00   2.00   0.00   0.00   0.00
+ 
+ A1g-(1,   1); Eg -(2,   1);
+ A2u-(1,   2); Eu -(2,   2);
+
+ BORN CHARGE VECTOR IN THE BASIS OF NORMAL MODES (UNITS OF e*M_E**(-1/2) ).
+ e AND M_E ARE UNITS OF ELECTRON CHARGE AND MASS, RESPECTIVELY.
+
+ MODE         X              Y              Z
+   1    0.00000E+00   -0.26761E-28    0.00000E+00
+   2    0.26761E-28    0.00000E+00    0.00000E+00
+   3    0.00000E+00    0.00000E+00    0.00000E+00
+   4    0.00000E+00    0.00000E+00    0.00000E+00
+   5    0.00000E+00    0.00000E+00    0.13002E-17
+   6    0.00000E+00   -0.52433E-02    0.00000E+00
+   7    0.52433E-02    0.00000E+00    0.00000E+00
+   8    0.00000E+00    0.00000E+00    0.00000E+00
+   9    0.00000E+00    0.00000E+00    0.18031E-01
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ VIBRATIONAL CONTRIBUTIONS TO THE STATIC POLARIZABILITY TENSOR HAVE THE
+ DIMENSIONS OF A VOLUME [BOHR**3]. THEY ARE COMPUTED FOR EACH nth MODE AS:
+
+   f_(n,ij) = 1 / (4 * pi * eps0) * 4 * pi * Z_(n,i) * Z_(n,j) / nu_n**2
+
+ WHERE:
+  1/(4*pi*eps0)  1 A.U. [M*L**3*T**(-4)*C**(-2)]
+  Z_(n,i)        ith COMPONENT OF BORN CHARGE VECTOR IN THE BASIS
+                 OF NORMAL MODES ( e*M_E**(-1/2) ) [C*T*M**(-1/2)]
+  nu_n           FREQUENCY (HARTREE) [T**(-1)]
+  e, M_E         UNITS OF ELECTRON CHARGE AND MASS, RESPECTIVELY
+  M, L, T, C     MASS, LENGTH, TIME, CURRENT, RESPECTIVELY
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+ MODE      CARTESIAN AXES SYSTEM
+
+   6       0.00000    0.00000    0.00000
+           0.00000    3.44818    0.00000
+           0.00000    0.00000    0.00000
+
+   7       3.44818    0.00000    0.00000
+           0.00000    0.00000    0.00000
+           0.00000    0.00000    0.00000
+
+   9       0.00000    0.00000    0.00000
+           0.00000    0.00000    0.00000
+           0.00000    0.00000    2.37134
+
+ SUM TENSOR OF THE VIBRATIONAL CONTRIBUTIONS TO THE STATIC POLARIZABILITY TENSOR
+
+           3.44818    0.00000    0.00000
+           0.00000    3.44818    0.00000
+           0.00000    0.00000    2.37134
+
+ INTEGRATED IR INTENSITIES, IN UNITS OF KM/MOL, ARE COMPUTED UNDER THE
+ HYPOTHESIS OF ISOTROPIC RESPONSE (I.E. POWDER SAMPLE):
+
+   INTENS_n = 1 / (4 * pi * eps0) * pi * N_AV / 3 / c**2 *
+                             * d_n * ( Z_(n,x)**2 + Z_(n,y)**2 + Z_(n,z)**2 )
+            = 0.17770712E+07 * d_n * ( Z_(n,x)**2 + Z_(n,y)**2 + Z_(n,z)**2 )
+
+ WHERE:
+  1/(4*pi*eps0)  1 A.U. [M*L**3*T**(-4)*C**(-2)]
+  N_AV           AVOGADRO'S NUMBER [QM**(-1)]
+  c              SPEED OF LIGHT [L*T**(-1)]
+  d_n            DEGENERACY OF THE MODE
+  Z_(n,x)        xth COMPONENT OF BORN CHARGE VECTOR IN THE BASIS
+                 OF NORMAL MODES ( e*M_E**(-1/2) ) [C*T*M**(-1/2)]
+  M,L,T,C,QM     MASS, LENGTH, TIME, CURRENT, QUANTITY OF MATTER, RESPECTIVELY
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ EIGENVALUES (EIGV) OF THE MASS WEIGHTED HESSIAN MATRIX AND HARMONIC TRANSVERSE
+ OPTICAL (TO) FREQUENCIES. IRREP LABELS REFER TO SYMMETRY REPRESENTATION
+ ANALYSIS; A AND I INDICATE WHETHER THE MODE IS ACTIVE OR INACTIVE,
+ RESPECTIVELY, FOR IR AND RAMAN; INTEGRATED IR INTENSITIES IN BRACKETS.
+
+ CONVERSION FACTORS FOR FREQUENCIES:
+      1 CM**(-1) =   0.4556335E-05 HARTREE
+      1 THZ      =   0.3335641E+02 CM**(-1)
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+    MODES         EIGV          FREQUENCIES     IRREP  IR   INTENS    RAMAN
+             (HARTREE**2)   (CM**-1)     (THZ)             (KM/MOL)
+    1-   2    0.0000E+00      0.0000    0.0000  (Eg )   I (     0.00)   A
+    3-   4    0.4758E-21      0.0000    0.0000  (Eu )   A (     0.00)   I
+    5-   5    0.7613E-20      0.0000    0.0000  (A2u)   A (     0.00)   I
+    6-   7    0.7973E-05    619.7125   18.5785  (Eu )   A (    97.71)   I
+    8-   8    0.4312E-04   1441.1477   43.2045  (A1g)   I (     0.00)   A
+    9-   9    0.1371E-03   2569.8172   77.0412  (A2u)   A (   577.74)   I
+
+ <RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN>
+ <RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN>
+
+ RAMAN INTENSITIES UNDER PLACZECK APPROXIMATION ARE COMPUTED AS:
+
+  DIRECTIONAL (SINGLE CRYSTAL) :
+
+     I_ij(n)= VOLUME*X(n,i,j)**2
+
+  ISOTROPIC (POLYCRYSTALLINE POWDERS, GASES) :
+
+     G_0(n) = 1/3*(SUM_i X(n,i,i))**2
+     G_1(n) = 1/2*SUM_i,j (X(n,i,j)+X(n,j,i))**2
+     G_2(n) = 1/3*SUM_i,j (X(n,i,i)-X(n,j,j))**2
+
+     I_par(n)  = VOLUME*( 15*G_0(n) + 6*(G_1(n) + G_2(n)) )
+     I_perp(n) = VOLUME*9/2*( G_1(n) + G_2(n) )
+     I_tot(n)  = I_par(n) + I_perp(n)
+
+  WHERE X(n,i,j) IS THE i,j-th COMPONENT OF THE RAMAN TENSOR
+  IN THE BASIS OF NORMAL MODE n
+
+  ALL VALUES ARE NORMALIZED TO THE MOST INTENSE PEAK
+
+
+  INTENSITIES  DO NOT TAKE INTO ACCOUNT TEMPERATURE OR
+  FREQUENCY OF THE INCOMING LASER, YOU CAN SET THESE PARAMETERS
+  BY INPUT USING THE RAMEXP KEYWORD
+
+
+ REFERENCES TO BE QUOTED FOR RAMAN INTENSITIES:
+
+ L.MASCHIO, B.KIRTMAN, M.RERAT, R.ORLANDO and R.DOVESI, JCP 139, 164101 (2013)
+ L.MASCHIO, B.KIRTMAN, M.RERAT, R.ORLANDO and R.DOVESI, JCP 139, 164102 (2013)
+
+  --
+  AVERAGED ISOTROPIC INTENSITIES (ARBITRARY UNITS)
+
+    MODES    FREQUENCIES           I_tot     I_par    I_perp
+  ----------------------------------------------------------------
+    8-   8     1441.1477 (A1g)   1000.00    834.63    165.37
+
+  --
+  DIRECTIONAL INTENSITIES (ARBITRARY UNITS)
+
+    MODES    FREQUENCIES          I_xx    I_xy    I_xz    I_yy    I_yz    I_zz
+  ----------------------------------------------------------------------------
+    8-   8     1441.1477 (A1g)   19.90    0.00    0.00   19.90    0.00 1000.00
+
+ <RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN>
+ <RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN><RAMAN>
+
+
+ NORMAL MODES NORMALIZED TO CLASSICAL AMPLITUDES (IN BOHR)
+
+ FREQ(CM**-1)      0.00      0.00      0.00      0.00      0.00    619.71
+
+ AT.   1 C  X     0.0000    0.0000   -0.1508    0.0000    0.0000    0.0000
+            Y     0.0000    0.0000    0.0000    0.1508    0.0000   -0.1085
+            Z     0.0000    0.0000    0.0000    0.0000    0.1508    0.0000
+ AT.   2 O  X     0.1768    0.0000   -0.1508    0.0000    0.0000    0.0000
+            Y     0.0000    0.1768    0.0000    0.1508    0.0000    0.0407
+            Z     0.0000    0.0000    0.0000    0.0000    0.1508    0.0000
+ AT.   3 O  X    -0.1768    0.0000   -0.1508    0.0000    0.0000    0.0000
+            Y     0.0000   -0.1768    0.0000    0.1508    0.0000    0.0407
+            Z     0.0000    0.0000    0.0000    0.0000    0.1508    0.0000
+
+ FREQ(CM**-1)    619.71   1441.15   2569.82
+
+ AT.   1 C  X     0.1085    0.0000    0.0000
+            Y     0.0000    0.0000    0.0000
+            Z     0.0000    0.0000    0.0533
+ AT.   2 O  X    -0.0407    0.0000    0.0000
+            Y     0.0000    0.0000    0.0000
+            Z     0.0000    0.0511   -0.0200
+ AT.   3 O  X    -0.0407    0.0000    0.0000
+            Y     0.0000    0.0000    0.0000
+            Z     0.0000   -0.0511   -0.0200
+
+ *******************************************************************************
+
+ VIBRATIONAL TEMPERATURES (K) [MODE NUMBER;IRREP]
+
+ TO MODES
+   891.6 [   6;Eu ]   891.6 [   7;Eu ]  2073.5 [   8;A1g]  3697.4 [   9;A2u]
+
+ *******************************************************************************
+
+ HARMONIC VIBRATIONAL CONTRIBUTIONS TO THERMODYNAMIC FUNCTIONS AT GIVEN
+ TEMPERATURE AND PRESSURE:
+
+ (EL = ELECTRONIC ENERGY
+  E0 = ZERO-POINT ENERGY
+  ET = THERMAL CONTRIBUTION TO THE VIBRATIONAL ENERGY
+  PV = PRESSURE * VOLUME
+  TS = TEMPERATURE * ENTROPY)
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ EL            :    -188.337327093750   -5124.919216079238     -494479.58259983
+ E0            :       0.011961268283       0.325482657187          31.40430545
+
+ 
+ WARNING **** THERMOFRQ **** PV TERM COMPUTED ONLY FOR 3D SYSTEMS
+
+ ---------------------
+ -- THERMOCHEMISTRY --
+ ---------------------
+
+ Temperature  298.15 K, Pressure  0.10132500E+00 MPA
+ Rotational symmetry number:   2
+ Moments of inertia (a.u.) and Rotational temperatures (K)
+ with respect to principal axes:
+                          1                   2                     3
+ Moments --          153.873672273530     153.873672273530       0.000000000000
+ Temperatures --       0.562889122369       0.562889122369       0.000000000000
+
+ THERMAL ENERGY           AU                  EV                      J/MOL
+ Translational:        0.001416278906       0.038538908301        3718.43974020
+ Rotational:           0.000944185937       0.025692605534        2478.95982680
+ E0(Vibrational)       0.011961268283       0.325482657187       31404.30545024
+ Vibr. corr.:          0.000305175306       0.008304242243         801.23765180
+ Total:                0.014626908431       0.398018413266       38402.94267301
+
+
+ ENTROPY                  AU/K                EV/K                    J/(MOL*K)
+ Translational:        0.000059393812       0.001616187802         155.93843246
+ Rotational:           0.000020834864       0.000566945464          54.70192687
+ Vibrational:          0.000001353211       0.000036822737           3.55285441
+ Total:                0.000081581887       0.002219956003         214.19321388
+
+ HEAT CAPACITY            mAU/K               mEV/K                   J/(MOL*K)
+ Translational:        0.004750222725       0.129260131817          12.47170800
+ Rotational:           0.003166815150       0.086173421211           8.31447200
+ Vibrational:          0.003304685291       0.089925058478           8.67645001
+ Total:                0.011221723167       0.305358611506          29.46263002
+
+
+ *******************************************************************************
+
+ THERMODYNAMIC FUNCTIONS TAKING INTO ACCOUNT MOLECULAR
+ ROTATIONAL, TRANSLATIONAL AND VIBRATIONAL CONTRIBUTIONS
+
+ AT (T =  298.15 K, P =   0.10132500E+00 MPA):
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ ET            :       0.002665640148       0.072535756079           6.99863722
+ PV            :       0.000944185937       0.025692605534           2.47895983
+ TS            :       0.024323639580       0.661879882291          63.86170672
+ ET+PV-TS      :      -0.020713813495      -0.563651520678         -54.38410967
+ EL+E0+ET+PV-TS:    -188.346079638962   -5125.157384942729     -494502.56240405
+
+ OTHER THERMODYNAMIC FUNCTIONS:
+
+                      mHARTREE/(CELL*K)     mEV/(CELL*K)              J/(MOL*K)
+ ENTROPY       :       0.081581886902       2.219956002987         214.19321388
+ HEAT CAPACITY :       0.011221723167       0.305358611506          29.46263002
+
+ *******************************************************************************
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.17 TCPU        0.15
+ EEEEEEEEEE TERMINATION  DATE 11 09 2024 TIME 18:13:59.2
+NODE    0 CPU TIME =         0.150
+NODE    1 CPU TIME =         0.144
+NODE    2 CPU TIME =         0.142
+NODE    3 CPU TIME =         0.141
+NODE    4 CPU TIME =         0.141
+NODE    5 CPU TIME =         0.146
+NODE    6 CPU TIME =         0.143
+NODE    7 CPU TIME =         0.141
+NODE    8 CPU TIME =         0.144
+NODE    9 CPU TIME =         0.145
+    TOTAL CPU TIME =         1.437
+Wed 11 Sep 2024 06:13:59 PM CEST
+total 293564
+-rw-r--r-- 1 erba users       450 Sep 11 18:13 BORN.DAT
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 dffit3.dat
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err1.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_err2.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Fg
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 diis_Sk.pe09
+-rw-r--r-- 1 erba users       112 Sep 11 18:13 fort.10.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.10.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.11.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.12
+-rw-r--r-- 1 erba users     14104 Sep 11 18:13 fort.13
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.17.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.18.pe09
+-rw-r--r-- 1 erba users       360 Sep 11 18:13 fort.19.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.19.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.1.pe09
+-rw-r--r-- 1 erba users     26040 Sep 11 18:13 fort.20
+-rw-r--r-- 1 erba users       520 Sep 11 18:13 fort.21
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.28.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.29.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.38.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.3.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.40.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.61.pe08
+-rw-r--r-- 1 erba users      1984 Sep 11 18:13 fort.61.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.62.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.62.pe01
+-rw-r--r-- 1 erba users       240 Sep 11 18:13 fort.62.pe02
+-rw-r--r-- 1 erba users       240 Sep 11 18:13 fort.62.pe03
+-rw-r--r-- 1 erba users       256 Sep 11 18:13 fort.62.pe04
+-rw-r--r-- 1 erba users       256 Sep 11 18:13 fort.62.pe05
+-rw-r--r-- 1 erba users       576 Sep 11 18:13 fort.62.pe06
+-rw-r--r-- 1 erba users       432 Sep 11 18:13 fort.62.pe07
+-rw-r--r-- 1 erba users       608 Sep 11 18:13 fort.62.pe08
+-rw-r--r-- 1 erba users       464 Sep 11 18:13 fort.62.pe09
+-rw-r--r-- 1 erba users      2302 Sep 11 18:13 fort.65
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.82.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.83.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.8.pe09
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.9
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe00
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe01
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe02
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe03
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe04
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe05
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe06
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe07
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe08
+-rw-r--r-- 1 erba users         0 Sep 11 18:13 fort.95.pe09
+-rw-r--r-- 1 erba users    430022 Sep 11 18:13 FREQINFO.DAT
+-rw-r--r-- 1 erba users      1722 Sep 11 18:13 HESSFREQ.DAT
+-rw-r--r-- 1 erba users       336 Sep 11 18:13 INPUT
+-rwxr-xr-x 1 erba users 300056536 Sep 11 18:13 Pcrystal-475110
+lrwxrwxrwx 1 erba users       122 Sep 11 18:13 SCFOUT.LOG -> /home/erba/Furfaro/Calcoli/Anidride_carbonica/CO2_freqcalc_B3LYP_DFT/freqcalc_armonic_intens_raman/CO2_FREQCALC_Raman.out2
+-rw-r--r-- 1 erba users       441 Sep 11 18:13 TENS_IR.DAT
+-rw-r--r-- 1 erba users       873 Sep 11 18:13 TENS_RAMAN.DAT

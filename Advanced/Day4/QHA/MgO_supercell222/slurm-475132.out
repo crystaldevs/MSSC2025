@@ -1,0 +1,17 @@
+Loading mkl version 2021.4.0
+Loading tbb version 2021.6.0
+Loading compiler-rt version 2022.1.0
+
+Loading mkl/2021.4.0
+  Loading requirement: tbb/latest compiler-rt/latest
+Loading compiler version 2021.4.0
+Loading debugger version 2021.6.0
+Loading dpl version 2021.7.0
+Loading oclfpga version 2022.1.0
+
+Loading compiler/2021.4.0
+  Loading requirement: debugger/latest dpl/latest oclfpga/latest
+scp: /scratch/alessandro/tmp_p22462/MgO_supercell222_QHA.lista: No such file or directory
+creating temporary directory: /scratch/alessandro/tmp_p22462 , on each node
+copying Pcrystal and the input file (INPUT) on each node
+deleting temporary files from each node

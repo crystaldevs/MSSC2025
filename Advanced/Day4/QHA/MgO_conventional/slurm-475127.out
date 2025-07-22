@@ -1,0 +1,4 @@
+scp: /scratch/alessandro/tmp_p21514/MgO_primitive_QHA.lista: No such file or directory
+creating temporary directory: /scratch/alessandro/tmp_p21514 , on each node
+copying Pcrystal and the input file (INPUT) on each node
+deleting temporary files from each node
