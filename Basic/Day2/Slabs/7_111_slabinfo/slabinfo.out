@@ -1,0 +1,276 @@
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 20 09 2024 TIME 13:56:23.2
+ TEST11 - MGO BULK                                                               
+
+ CRYSTAL CALCULATION
+ (INPUT ACCORDING TO THE INTERNATIONAL TABLES FOR X-RAY CRYSTALLOGRAPHY)
+ CRYSTAL FAMILY                       :  CUBIC       
+ CRYSTAL CLASS  (GROTH - 1921)        :  CUBIC HEXAKISOCTAHEDRAL              
+
+ SPACE GROUP (CENTROSYMMETRIC)        :  F M 3 M         
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - CONVENTIONAL CELL
+        A           B           C        ALPHA        BETA       GAMMA
+     4.19057     4.19057     4.19057    90.00000    90.00000    90.00000
+
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CONVENTIONAL CELL:    2
+
+ INPUT COORDINATES
+
+ ATOM AT. N.              COORDINATES
+   1  12     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+   2   8     5.000000000000E-01  5.000000000000E-01  5.000000000000E-01
+
+ *******************************************************************************
+
+ << INFORMATION >>: FROM NOW ON, ALL COORDINATES REFER TO THE PRIMITIVE CELL
+
+ *******************************************************************************
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    2.96318    2.96318    2.96318    60.00000  60.00000  60.00000     18.397531
+
+ COORDINATES OF THE EQUIVALENT ATOMS (FRACTIONAL UNITS)
+
+ N. ATOM EQUIV AT. N.          X                  Y                  Z
+
+   1   1   1   12 MG    0.00000000000E+00  0.00000000000E+00  0.00000000000E+00
+
+   2   2   1    8 O    -5.00000000000E-01 -5.00000000000E-01 -5.00000000000E-01
+
+ NUMBER OF SYMMETRY OPERATORS         :   48
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+
+ *******************************************************************************
+  * CELL ROTATION 
+ *******************************************************************************
+
+ DIRECT-LATTICE FUNDAMENTAL VECTORS 
+             X         Y         Z
+ A1       0.0000    2.0953    2.0953
+ A2       2.0953    0.0000    2.0953
+ A3       2.0953    2.0953    0.0000
+ **********************************************************************
+ *            DEFINITION OF THE NEW LATTICE VECTORS                   *
+ *            TWO OF WHICH BELONG TO THE SELECTED PLANE               *
+ **********************************************************************
+
+                       PLANE INDICES =   1   1   1
+
+ NEW FUNDAMENTAL DIRECT-LATTICE VECTORS B1,B2,B3
+ B1=      0 A1   -1 A2    1 A3 
+ B2=     -1 A1    1 A2    0 A3 
+ B3=      0 A1    0 A2   -1 A3 
+
+ LATTICE PARAMETERS  (ANGSTROM  AND DEGREES)
+        A           B           C        ALPHA        BETA       GAMMA
+     2.96318     2.96318     2.96318    90.00000   120.00000   120.00000
+
+ NUMBER OF PRIMITIVE CELLS CONTAINED IN THE NEW FUNDAMENTAL CELL :  1
+
+ *** THE CARTESIAN FRAME IS ROTATED SO THAT
+     THE SELECTED PLANE IS IN THE X-Y PLANE
+
+ NEW FUNDAMENTAL DIRECT-LATTICE VECTORS B1,B2,B3
+             X         Y         Z
+ B1       2.9632    0.0000    0.0000
+ B2      -1.4816    2.5662    0.0000
+ B3      -1.4816   -0.8554    2.4194
+
+ VOLUME OF THE 3D CELL      18.398
+ AREA OF THE 2D CELL         7.604
+ B3 MODULUS                  2.963
+ B3 Z PROJECTION             2.419
+ B3 X-Y PROJECTION           1.711
+
+ UNIT CELL ATOM COORDINATES :
+ LAB AT.NO.       CARTESIAN (ANG)               CRYSTALLOGRAPHIC
+   1  12       0.000     0.000     0.000     0.000000   0.000000   0.000000
+   2   8       0.000    -1.711     1.210     0.000000  -0.500000   0.500000
+   1  12       0.000     0.000     0.000     0.000000   0.000000   0.000000
+   2   8      -1.482     0.855     1.210     0.000000   0.500000   0.500000
+
+ ATOMS CLASSIFIED ACCORDING TO THE Z COORDINATE :
+  LAYER   1 Z=   1.2097; LABEL AT.NO.              X,Y,Z (ANG.)
+                           2     8       -1.48159     0.85540     1.20971
+  LAYER   2 Z=   0.0000; LABEL AT.NO.              X,Y,Z (ANG.)
+                           1    12        0.00000     0.00000     0.00000
+
+ *************************** CELL ROTATION COMPLETE ***************************
+ INFORMATION **** NEW DEFAULT **** FINALRUN 4 FOR GEOMETRY OPTIMIZATIONS
+ INFORMATION **** NEW DEFAULT **** OPTGEOM OPTIMIZES BOTH ATOMIC COORDINATES AND CELL PARAMETERS
+ INFORMATION **** NEW DEFAULT **** TOL. ON ATOMIC DISP TO REDEFINE REF. GEOMETRY: 0.8 Angs
+ INFORMATION **** NEW DEFAULT **** N POINTS TO REDEFINE REF. GEOMETRY: N OF OPT DEGS OF FREEDOM
+ INFORMATION **** NEW DEFAULT **** TOL. ON ENERGY TO REDEFINE REF. GEOMETRY: 10**-3*(5*N. ATOMS)
+
+ IMPORTANT INFORMATION:
+ THE COORDINATE SYSTEM ADOPTED IN THE OPTIMIZATION IS NOT IN
+ GENERAL HOMOGENEOUS UNITS. FOR THIS REASON THE GRADIENT AND 
+ HESSIAN MATRIX IN TERMS OF THIS SYSTEM ARE GIVEN WITHOUT
+ UNITS. FOR MORE DETAILS SEE THE MANUAL.
+
+ *******************************************************************************
+ COMBINED CELL/ATOM OPTIMIZATION CONTROL
+
+ INITIAL TRUST RADIUS         0.50000 MAXIMUM TRUST RADIUS               4.00000
+ MAXIMUM GRADIENT COMPONENT   0.00045 MAXIMUM DISPLACEMENT COMPONENT     0.00180
+ R.M.S. OF GRADIENT COMPONENT 0.00030 R.M.S. OF DISPLACEMENT COMPONENTS  0.00120
+ THRESHOLD ON ENERGY CHANGE 0.100E-06 EXTRAPOLATING POLYNOMIAL ORDER           2
+ MAXIMUM ALLOWED NUMBER OF STEPS   -1 SORTING OF ENERGY POINTS:               NO
+ ANALYTICAL  GRADIENT                 HESSIAN UPDATING                      BFGS
+ STEP SIZE NUMERICAL GRADIENT 0.00100
+ INITIAL HESSIAN MATRIX: SCHLEGEL MODEL 2
+ *******************************************************************************
+
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    16    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    59.26060 BOHR
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    3
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 5/0 VOLUME=    18.397531 - DENSITY  3.609 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     2.96318099     2.96318099     2.96318099    90.000000 120.000000 120.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    2 - ATOMS IN THE UNIT CELL:    2
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  12 MG    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T   8 O    -1.511047877723E-18 -5.000000000000E-01 -5.000000000000E-01
+
+ TRANSFORMATION MATRIX PRIMITIVE-CRYSTALLOGRAPHIC CELL
+ -1.0000  1.0000  1.0000  1.0000 -1.0000  1.0000  1.0000  1.0000 -1.0000
+
+ *******************************************************************************
+ CRYSTALLOGRAPHIC CELL (VOLUME=         73.59012300)
+         A              B              C           ALPHA      BETA       GAMMA 
+     6.62587412     5.13238002     5.13238002   109.471221 121.090930 121.090930
+
+ COORDINATES IN THE CRYSTALLOGRAPHIC CELL
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  12 MG    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T   8 O     5.000000000000E-01  2.500000000000E-01  2.500000000000E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****   48 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2  1.00 -0.00 -0.00  1.00 -1.00 -0.00  1.00  0.00 -1.00  0.00  0.00  0.00
+   3   3 -1.00 -0.00 -0.00  0.00 -0.00 -1.00  0.00 -1.00 -0.00  0.00  0.00  0.00
+   4   4 -1.00 -0.00  0.00 -1.00 -0.00  1.00 -1.00  1.00  0.00  0.00  0.00  0.00
+   5   6 -1.00  1.00  1.00 -1.00 -0.00  1.00  0.00 -0.00  1.00  0.00  0.00  0.00
+   6   5 -0.00 -1.00  1.00  1.00 -1.00 -0.00 -0.00  0.00  1.00  0.00  0.00  0.00
+   7   8 -1.00  1.00  1.00  0.00  1.00  0.00 -1.00  1.00  0.00  0.00  0.00  0.00
+   8   7 -0.00  1.00 -1.00 -0.00  1.00  0.00  1.00  0.00 -1.00  0.00  0.00  0.00
+   9  10  1.00 -1.00 -1.00 -0.00  0.00 -1.00  1.00  0.00 -1.00  0.00  0.00  0.00
+  10   9  0.00 -1.00  1.00 -1.00 -0.00  1.00  0.00 -1.00 -0.00  0.00  0.00  0.00
+  11  12  1.00 -1.00 -1.00  1.00 -1.00  0.00 -0.00 -1.00 -0.00  0.00  0.00  0.00
+  12  11  0.00  1.00 -1.00  0.00 -0.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00
+  13  13 -1.00 -0.00 -0.00 -1.00  1.00  0.00  0.00 -0.00 -1.00  0.00  0.00  0.00
+  14  14 -1.00 -0.00  0.00  0.00 -1.00 -0.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  15  16  1.00  0.00 -0.00  1.00  0.00 -1.00 -0.00  1.00  0.00  0.00  0.00  0.00
+  16  15  1.00  0.00  0.00 -0.00  0.00  1.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  17  17  1.00 -1.00 -1.00 -0.00 -1.00 -0.00 -0.00  0.00 -1.00  0.00  0.00  0.00
+  18  18 -0.00  1.00 -1.00  1.00 -0.00 -1.00 -0.00 -0.00 -1.00  0.00  0.00  0.00
+  19  21  1.00 -1.00 -1.00  1.00  0.00 -1.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  20  22  0.00 -1.00  1.00  0.00 -0.00  1.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  21  19 -1.00  1.00  1.00 -1.00  1.00  0.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  22  20  0.00  1.00 -1.00 -1.00  1.00 -0.00  0.00  1.00  0.00  0.00  0.00  0.00
+  23  23 -1.00  1.00  1.00  0.00  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00
+  24  24 -0.00 -1.00  1.00 -0.00 -1.00 -0.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  25  25 -1.00  0.00 -0.00  0.00 -1.00 -0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  26  26 -1.00  0.00  0.00 -1.00  1.00  0.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  27  27  1.00  0.00  0.00 -0.00  0.00  1.00 -0.00  1.00  0.00  0.00  0.00  0.00
+  28  28  1.00  0.00 -0.00  1.00  0.00 -1.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  29  30  1.00 -1.00 -1.00  1.00  0.00 -1.00 -0.00  0.00 -1.00  0.00  0.00  0.00
+  30  29  0.00  1.00 -1.00 -1.00  1.00  0.00  0.00 -0.00 -1.00  0.00  0.00  0.00
+  31  32  1.00 -1.00 -1.00 -0.00 -1.00 -0.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  32  31  0.00 -1.00  1.00  0.00 -1.00 -0.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  33  34 -1.00  1.00  1.00  0.00 -0.00  1.00 -1.00 -0.00  1.00  0.00  0.00  0.00
+  34  33 -0.00  1.00 -1.00  1.00  0.00 -1.00 -0.00  1.00  0.00  0.00  0.00  0.00
+  35  36 -1.00  1.00  1.00 -1.00  1.00 -0.00  0.00  1.00  0.00  0.00  0.00  0.00
+  36  35 -0.00 -1.00  1.00 -0.00  0.00  1.00  1.00 -1.00 -0.00  0.00  0.00  0.00
+  37  37  1.00  0.00  0.00  1.00 -1.00 -0.00 -0.00  0.00  1.00  0.00  0.00  0.00
+  38  38  1.00  0.00 -0.00 -0.00  1.00  0.00  1.00  0.00 -1.00  0.00  0.00  0.00
+  39  40 -1.00 -0.00  0.00 -1.00 -0.00  1.00  0.00 -1.00 -0.00  0.00  0.00  0.00
+  40  39 -1.00 -0.00 -0.00  0.00 -0.00 -1.00 -1.00  1.00  0.00  0.00  0.00  0.00
+  41  41 -1.00  1.00  1.00  0.00  1.00  0.00  0.00 -0.00  1.00  0.00  0.00  0.00
+  42  42  0.00 -1.00  1.00 -1.00  0.00  1.00  0.00  0.00  1.00  0.00  0.00  0.00
+  43  45 -1.00  1.00  1.00 -1.00 -0.00  1.00 -1.00  1.00  0.00  0.00  0.00  0.00
+  44  46 -0.00  1.00 -1.00 -0.00  0.00 -1.00  1.00  0.00 -1.00  0.00  0.00  0.00
+  45  43  1.00 -1.00 -1.00  1.00 -1.00 -0.00  1.00  0.00 -1.00  0.00  0.00  0.00
+  46  44 -0.00 -1.00  1.00  1.00 -1.00  0.00 -0.00 -1.00 -0.00  0.00  0.00  0.00
+  47  47  1.00 -1.00 -1.00 -0.00 -0.00 -1.00 -0.00 -1.00 -0.00  0.00  0.00  0.00
+  48  48  0.00  1.00 -1.00  0.00  1.00  0.00 -1.00  1.00  0.00  0.00  0.00  0.00
+
+ DIRECT LATTICE VECTORS CARTESIAN COMPONENTS (ANGSTROM)
+          X                    Y                    Z
+   0.296318098730E+01   0.000000000000E+00   0.000000000000E+00
+  -0.148159049365E+01   0.256619001101E+01   0.000000000000E+00
+  -0.148159049365E+01  -0.855396670336E+00   0.241942714480E+01
+
+
+ CARTESIAN COORDINATES - PRIMITIVE CELL
+ *******************************************************************************
+ *      ATOM          X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+    1    12 MG    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+    2     8 O    -1.481590493648E+00  8.553966703364E-01  1.209713572399E+00
+ WARNING **** CRYSTA **** TESTGEOM  DIRECTIVE - GEOMETRY EDITING COMPLETE
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.05 TCPU        0.04
+ EEEEEEEEEE TERMINATION  DATE 20 09 2024 TIME 13:56:23.2
