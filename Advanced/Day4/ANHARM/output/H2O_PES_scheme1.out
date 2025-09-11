@@ -1,0 +1,852 @@
+/home/erba/Mitoli/pub/bin/Linux-ifort_openmpi_i64_clut/std/Pcrystal
+/scratch/alessandro/tmp_p483
+script started on node80
+H2O - PES (scheme 1)
+MOLECULE
+15
+2
+8      0.000000000000E+00  0.000000000000E+00  1.175717600266E-01
+1      0.000000000000E+00  7.603952673740E-01 -4.710508800133E-01
+FREQCALC
+RESTART
+ANHAPES
+3
+7 8 9
+1 0.9
+END
+END
+1 6
+0 0 1 0 1.0
+      3.258000D-01           1.000000D+00
+0 0 5 1 1.0
+      3.387000D+01           6.068000D-03
+      5.095000D+00           4.530800D-02
+      1.159000D+00           2.028220D-01
+      3.258000D-01           5.039030D-01
+      1.027000D-01           3.834210D-01
+0 0 1 0 1.0
+      1.027000D-01           1.000000D+00
+0 2 1 0 1.0
+      1.407000D+00           1.000000D+00
+0 2 1 0 1.0
+      3.880000D-01           1.000000D+00
+0 3 1 0 1.0
+      1.057000D+00           1.0000000
+8 10
+0 0 10 2 1.0
+      1.533000D+04           5.080000D-04
+      2.299000D+03           3.929000D-03
+      5.224000D+02           2.024300D-02
+      1.473000D+02           7.918100D-02
+      4.755000D+01           2.306870D-01
+      1.676000D+01           4.331180D-01
+      6.207000D+00           3.502600D-01
+      1.752000D+00           4.272800D-02
+      6.882000D-01          -8.154000D-03
+      2.384000D-01           2.381000D-03
+0 0 1 0 1.0
+      1.752000D+00           1.000000D+00
+0 0 10 2 1.0
+      1.533000D+04          -1.150000D-04
+      2.299000D+03          -8.950000D-04
+      5.224000D+02          -4.636000D-03
+      1.473000D+02          -1.872400D-02
+      4.755000D+01          -5.846300D-02
+      1.676000D+01          -1.364630D-01
+      6.207000D+00          -1.757400D-01
+      1.752000D+00           1.609340D-01
+      6.882000D-01           6.034180D-01
+      2.384000D-01           3.787650D-01
+0 0 1 0 1.0
+      2.384000D-01           1.000000D+00
+0 2 1 0 1.0
+      7.156000D-01           1.000000D+00
+0 2 5 4 1.0
+      3.446000D+01           1.592800D-02
+      7.749000D+00           9.974000D-02
+      2.280000D+00           3.104920D-01
+      7.156000D-01           4.910260D-01
+      2.140000D-01           3.363370D-01
+0 2 1 0 1.0
+      2.140000D-01           1.000000D+00
+0 3 1 0 1.0
+      2.314000D+00           1.000000D+00
+0 3 1 0 1.0
+      6.450000D-01           1.000000D+00
+0 4 1 0 1.0
+      1.428000D+00           1.0000000
+99 0
+END
+DFT
+B3LYP
+END
+TOLDEE
+10
+MAXCYCLE
+100
+END
+************************************************
+ANOTHER DROLLERY FILLED RUN OF THE CRYSTAL CODE!
+************************************************
+Fri 13 Sep 2024 11:32:35 AM CEST
+ PROCESS            0  OF            1  WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL23                                     *
+ *                      public : 1.0.1 - October 2022                          *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(6), I.J. BUSH(7), Ph. D'ARCO(8),                 *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11), B.G. SEARLE(2), J.K. DESMARAIS(1)         *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18), L.E. DAGA(1), L. DONA'(1), A. COSSARD(1)                *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) SCIENTIFIC COMPUTING DEPARTMENT - STFC DARESBURY (UK)                   *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) SCIENTIFIC COMPUTING DEPARTMENT - STFC RAL (UK)                         *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) UNIVERSITY OF VERMONT - BURLINGTON (USA)                                *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 13 09 2024 TIME 11:32:35.9
+ H2O - PES (scheme 1)                                                            
+
+ MOLECULAR CALCULATION
+ POINT  GROUP  N. 15                  :  MM2    OR  C2V  
+ CORRESPONDING SPACE GROUP            :  P M M 2         
+
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CONVENTIONAL CELL:    2
+
+ INPUT COORDINATES
+
+ ATOM AT. N.              COORDINATES
+   1   8     0.000000000000E+00  0.000000000000E+00  1.175717600266E-01
+   2   1     0.000000000000E+00  7.603952673740E-01 -4.710508800133E-01
+
+ COORDINATES OF THE EQUIVALENT ATOMS (ANGSTROMS)
+
+ N. ATOM EQUIV AT. N.          X                  Y                  Z
+
+   1   1   1    8 O     0.00000000000E+00  0.00000000000E+00  1.17571760027E-01
+
+   2   2   1    1 H     0.00000000000E+00  7.60395267374E-01 -4.71050880013E-01
+   3   2   2    1 H     0.00000000000E+00 -7.60395267374E-01 -4.71050880013E-01
+
+ NUMBER OF SYMMETRY OPERATORS         :    4
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ FRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQFRQ
+
+                       FREQUENCY CALCULATION
+
+ INFORMATION **** INPFREQ **** FREQUENCY CALCULATION RESTART(DATA FROM FREQINFO.DAT)
+ INFORMATION **** INPFREQ **** SCAN OF PES ALONG NORMAL MODES
+ INFORMATION **** INPFREQ **** NEW DEFAULT - IMPOSING ECKART CONDITIONS TO THE HESSIAN
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    0
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    2 - ATOMS IN THE UNIT CELL:    3
+     ATOM             X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+      1 T   8 O     0.000000000000E+00  0.000000000000E+00  1.175717600266E-01
+      2 T   1 H     0.000000000000E+00  7.603952673740E-01 -4.710508800133E-01
+      3 F   1 H     0.000000000000E+00 -7.603952673740E-01 -4.710508800133E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****    4 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   3   3 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   4   4  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+
+ *******************************************************************************
+ LOCAL ATOMIC FUNCTIONS BASIS SET
+ *******************************************************************************
+   ATOM   X(AU)   Y(AU)   Z(AU)  N. TYPE  EXPONENT  S COEF   P COEF   D/F/G COEF
+ *******************************************************************************
+   1 O    0.000   0.000   0.222
+                                  1 S  
+                                         1.533E+04 5.080E-04 0.000E+00 0.000E+00
+                                         2.299E+03 3.929E-03 0.000E+00 0.000E+00
+                                         5.224E+02 2.024E-02 0.000E+00 0.000E+00
+                                         1.473E+02 7.918E-02 0.000E+00 0.000E+00
+                                         4.755E+01 2.307E-01 0.000E+00 0.000E+00
+                                         1.676E+01 4.331E-01 0.000E+00 0.000E+00
+                                         6.207E+00 3.503E-01 0.000E+00 0.000E+00
+                                         1.752E+00 4.273E-02 0.000E+00 0.000E+00
+                                         6.882E-01-8.154E-03 0.000E+00 0.000E+00
+                                         2.384E-01 2.381E-03 0.000E+00 0.000E+00
+                                  2 S  
+                                         1.752E+00 1.000E+00 0.000E+00 0.000E+00
+                                  3 S  
+                                         1.533E+04-1.150E-04 0.000E+00 0.000E+00
+                                         2.299E+03-8.950E-04 0.000E+00 0.000E+00
+                                         5.224E+02-4.636E-03 0.000E+00 0.000E+00
+                                         1.473E+02-1.872E-02 0.000E+00 0.000E+00
+                                         4.755E+01-5.846E-02 0.000E+00 0.000E+00
+                                         1.676E+01-1.365E-01 0.000E+00 0.000E+00
+                                         6.207E+00-1.757E-01 0.000E+00 0.000E+00
+                                         1.752E+00 1.609E-01 0.000E+00 0.000E+00
+                                         6.882E-01 6.034E-01 0.000E+00 0.000E+00
+                                         2.384E-01 3.788E-01 0.000E+00 0.000E+00
+                                  4 S  
+                                         2.384E-01 1.000E+00 0.000E+00 0.000E+00
+                           5-     7 P  
+                                         7.156E-01 0.000E+00 1.000E+00 0.000E+00
+                           8-    10 P  
+                                         3.446E+01 0.000E+00 1.593E-02 0.000E+00
+                                         7.749E+00 0.000E+00 9.974E-02 0.000E+00
+                                         2.280E+00 0.000E+00 3.105E-01 0.000E+00
+                                         7.156E-01 0.000E+00 4.910E-01 0.000E+00
+                                         2.140E-01 0.000E+00 3.363E-01 0.000E+00
+                          11-    13 P  
+                                         2.140E-01 0.000E+00 1.000E+00 0.000E+00
+                          14-    18 D  
+                                         2.314E+00 0.000E+00 0.000E+00 1.000E+00
+                          19-    23 D  
+                                         6.450E-01 0.000E+00 0.000E+00 1.000E+00
+                          24-    30 F  
+                                         1.428E+00 0.000E+00 0.000E+00 1.000E+00
+   2 H    0.000   1.437  -0.890
+                                 31 S  
+                                         3.258E-01 1.000E+00 0.000E+00 0.000E+00
+                                 32 S  
+                                         3.387E+01 6.068E-03 0.000E+00 0.000E+00
+                                         5.095E+00 4.531E-02 0.000E+00 0.000E+00
+                                         1.159E+00 2.028E-01 0.000E+00 0.000E+00
+                                         3.258E-01 5.039E-01 0.000E+00 0.000E+00
+                                         1.027E-01 3.834E-01 0.000E+00 0.000E+00
+                                 33 S  
+                                         1.027E-01 1.000E+00 0.000E+00 0.000E+00
+                          34-    36 P  
+                                         1.407E+00 0.000E+00 1.000E+00 0.000E+00
+                          37-    39 P  
+                                         3.880E-01 0.000E+00 1.000E+00 0.000E+00
+                          40-    44 D  
+                                         1.057E+00 0.000E+00 0.000E+00 1.000E+00
+   3 H    0.000  -1.437  -0.890
+ INFORMATION **** SET_MPP **** PCRYSTAL CALCULATION
+ INFORMATION **** READM2 **** NEW DEFAULT: FOCK/KS MATRIX MIXING SET TO 30 %
+ INFORMATION **** READM2 **** NEW DEFAULT: FULL DIRECT SCF MODE
+ INFORMATION **** READM2 **** NEW DEFAULT: COULOMB BIPOLAR BUFFER SET TO 32 Mb
+ INFORMATION **** READM2 **** NEW DEFAULT: EXCHANGE BIPOLAR BUFFER SET TO 32 Mb
+
+ *******************************************************************************
+ NEW DEFAULT: DFT INTEGRATION GRID INCREASED TO XLGRID
+ NEW DEFAULT: DIIS ACCELERATOR ACTIVE
+ USE KEYWORD NODIIS TO TURN IT OFF
+ *******************************************************************************
+
+ INFORMATION **** TOLDEE **** SCF TOL ON TOTAL ENERGY SET TO          10
+ INFORMATION **** MAXCYCLE **** MAX NUMBER OF SCF CYCLES SET TO         100
+ *******************************************************************************
+ N. OF ATOMS PER CELL         3  COULOMB OVERLAP TOL         (T1) 10**   -6
+ NUMBER OF SHELLS            22  COULOMB PENETRATION TOL     (T2) 10**   -6
+ NUMBER OF AO                58  EXCHANGE OVERLAP TOL        (T3) 10**   -6
+ N. OF ELECTRONS PER CELL    10  EXCHANGE PSEUDO OVP (F(G))  (T4) 10**   -6
+ CORE ELECTRONS PER CELL      2  EXCHANGE PSEUDO OVP (P(G))  (T5) 10**  -12
+ N. OF SYMMETRY OPERATORS     4  POLE ORDER IN MONO ZONE                  4
+ *******************************************************************************
+ TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(BECKE 88)[LEE-YANG-PARR]
+
+ NON-LOCAL WEIGHTING FACTOR (EXCHANGE) =           0.9000
+ NON-LOCAL WEIGHTING FACTOR [CORRELATION] =        0.8100
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    20.0000
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE   8;G SPACE   4
+
+ *******************************************************************************
+ MAX NUMBER OF SCF CYCLES     100  CONVERGENCE ON DELTAP        10**-20
+ WEIGHT OF F(I) IN F(I+1)      30% CONVERGENCE ON ENERGY        10**-10
+
+ DISK SPACE FOR EIGENVECTORS (FTN 10)        3364 REALS
+
+ SYMMETRY ADAPTION OF THE BLOCH FUNCTIONS ENABLED
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.08 TCPU        0.08
+
+ MATRIX SIZE: P(G)    3364, F(G)    1711, P(G) IRR    1177, F(G) IRR    1177
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.08 TCPU        0.08
+
+ NEIGHBORS OF THE NON-EQUIVALENT ATOMS
+
+ N = NUMBER OF NEIGHBORS AT DISTANCE R
+    ATOM  N     R/ANG      R/AU   NEIGHBORS (ATOM LABELS AND CELL INDICES)
+   1 O    2     0.9616     1.8172    2 H    0 0 0    3 H    0 0 0
+
+   2 H    1     0.9616     1.8172    1 O    0 0 0
+   2 H    1     1.5208     2.8739    3 H    0 0 0
+
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   2
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.08 TCPU        0.08
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.08 TCPU        0.08
+
+ *******************************************************************************
+ *                                                                             *
+ *                                                                             *
+ *         FFFFF  RRRR   EEEE   QQQ   U   U  EEEE  N   N   CCC  Y   Y          *
+ *         F      R   R  E     Q   Q  U   U  E     NN  N  C      Y Y           *
+ *         FFF    RRRR   EEEE  Q   Q  U   U  EEEE  N N N  C       Y            *
+ *         F      R   R  E     Q  QQ  U   U  E     N  NN  C       Y            *
+ *         F      R   R  EEEE   QQ Q   UUU   EEEE  N   N   CCC    Y            *
+ *                                                                             *
+ *                                                                             *
+ * CALCULATION OF PHONON FREQUENCIES AT THE GAMMA POINT.                       *
+ *                                                                             *
+ * SYMMETRY IS EXPLOITED TO BUILD THE TOTAL HESSIAN MATRIX.                    *
+ * (F. PASCALE PHD THESIS TURIN-PARIS 2002)                                    *
+ *                                                                             *
+ *******************************************************************************
+
+
+ * INTENSITIES COMPUTED VIA THE BERRY PHASE APPROACH                           *
+ *                                                                             *
+ * REFERENCES TO BE QUOTED WHEN USING THIS MODULE:                             *
+ *                                                                             *
+ * F. Pascale, C.M. Zicovich-Wilson, F. Lopez, B. Civalleri                    *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of crystalline                 *
+ * compounds and its implementation in the CRYSTAL code                        *
+ * J. Comput. Chem. 25 (2004) 888-897                                          *
+ *                                                                             *
+ * C.M. Zicovich-Wilson, F. Pascale, C. Roetti, V.R. Saunders,                 *
+ * R. Orlando, R. Dovesi                                                       *
+ * The calculation of the vibration frequencies of alpha-quartz:               *
+ * the effect of hamiltonian and basis set                                     *
+ * J. Comput. Chem. 25 (2004) 1873-1881                                        *
+ *******************************************************************************
+
+
+
+ ATOMS ISOTOPIC MASS (AMU) FOR FREQUENCY CALCULATION 
+
+    1 O      15.9949    2 H       1.0078    3 H       1.0078
+
+ INFORMATION CONCERNING THE SCF+GRADIENT CALCULATIONS REQUIRED FOR
+ GENERATING FREQUENCIES. IN PRINCIPLE 3N+1 SCF + GRADIENT
+ CALCULATIONS  ARE REQUIRED;
+ FOR EACH OF THEM THE REMAINING POINT SYMMETRY IS INDICATED.
+ POINT SYMMETRY PERMITS TO GENERATE GRADIENTS FOR DISPLACEMENT B 
+ STARTING FROM THE GRADIENT GENERATED BY DISPLACEMENT A.
+
+   N   LABEL SYMBOL DISPLACEMENT     SYM. 
+
+   1     EQUILIBRIUM GEOMETRY            4
+
+   2      1   O            DX        GENERATED BY TRANSLATIONAL INVARIANCE
+   3      1   O            DY        GENERATED BY TRANSLATIONAL INVARIANCE
+   4      1   O            DZ        GENERATED BY TRANSLATIONAL INVARIANCE
+   5      2   H            DX           1
+   6      2   H            DY           2
+   7      2   H            DZ           2
+ USE OF RESIDUAL SYMMETRY AFTER DISPLACEMENT
+
+ NUMERICAL GRADIENT COMPUTED WITH A SINGLE DISPLACEMENT (+DX) FOR EACH
+ CARTESIAN COORDINATE WITH RESPECT TO THE EQUILIBRIUM CONFIGURATION
+ DX=  0.003 ANGSTROM
+ NUMBER OF IRREDUCIBLE ATOMS                     2
+ NUMBER OF SCF+GRADIENT CALCULATIONS             4
+
+  ATOM  SYMOP  ORDER
+    1      4      2
+    2      2      2
+
+ ATOM  : IRREDUCIBLE ATOM
+ SYMOP : NUMBER OF SYMMETRY OPERATORS THAT DOESN'T MOVE THE IRREDUCIBLE ATOM
+ ORDER : MAXIMUM ORDER AMONG THE OPERATORS OF THE IRREDUCIBLE ATOM
+
+ *******************************************************************************
+
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE   8;G SPACE   4
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.08 TCPU        0.08
+
+ MATRIX SIZE: P(G)    3364, F(G)    1711, P(G) IRR    1177, F(G) IRR    1177
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.08 TCPU        0.08
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   2
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.08 TCPU        0.08
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.08 TCPU        0.08
+
+         THE FIRST POINT IS RESTORED FROM THE FREQINFO.DAT
+
+
+ RESTART FROM  AN INCOMPLETE HESSIAN MATRIX
+
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+                   FORCE CONSTANT MATRIX - NUMERICAL ESTIMATE
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ MAX ABS(DGRAD): MAXIMUM ABSOLUTE GRADIENT DIFFERENCE WITH RESPECT TO
+                 THE CENTRAL POINT
+ DE:             ENERGY DIFFERENCE WITH RESPECT TO THE CENTRAL POINT
+                 (DE IS EXPECTED TO BE POSITIVE FOR ALL DISPLACEMENTS)
+
+   ATOM      MAX ABS(DGRAD)       TOTAL ENERGY (AU)  N.CYC      DE       SYM
+    CENTRAL POINT             -7.642273671293E+01     0     0.0000E+00     4
+    2 H  DX                   RESTORED FROM A PREV. HESS. MATRIX
+    2 H  DY                   RESTORED FROM A PREV. HESS. MATRIX
+    2 H  DZ                   RESTORED FROM A PREV. HESS. MATRIX
+
+ CAPPA:IS1  1;IS2  1;IS3  1; K PTS MONK NET   1; SYMMOPS:K SPACE   8;G SPACE   4
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.09 TCPU        0.09
+
+ MATRIX SIZE: P(G)    3364, F(G)    1711, P(G) IRR    1177, F(G) IRR    1177
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS   1
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.09 TCPU        0.09
+
+ SYMMETRY ALLOWED INTERNAL DEGREE(S) OF FREEDOM:   2
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.10 TCPU        0.09
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.10 TCPU        0.09
+
+ +++ SYMMETRY ADAPTION OF VIBRATIONAL MODES +++
+
+ SYMMETRY INFORMATION:
+ K-LITTLE GROUP: CLASS TABLE, CHARACTER TABLE.
+ IRREP-(DIMENSION, NO. IRREDUCIBLE SETS)
+ [WARNINGS: (1) ONLY ACTIVE IRREPS ARE GENERATED AND LISTED.
+            (2) ONLY RELEVANT CLASSES ARE CONSIDERED IN THE CHARACTER TABLE
+            (3) SYMBOLS MAY NOT FULLY COINCIDE WITH THOSE FROM TEXT BOOKS.]
+
+ (P, D, RP, RD, STAND FOR PAIRING, DOUBLING, REAL PAIRING AND REAL DOUBLING 
+ OF THE IRREPS (SEE MANUAL))
+
+ CLASS  | GROUP OPERATORS (SEE SYMMOPS KEYWORD)
+ --------------------------------------------------------------------
+ C2     |   2;
+ SGV    |   3;
+ SGV'   |   4;
+
+ IRREP/CLA      E     C2    SGV   SGV'
+ -------------------------------------
+  MULTIP |      1      1      1      1
+ -------------------------------------
+    A1   |   1.00   1.00   1.00   1.00
+    A2   |   1.00   1.00  -1.00  -1.00
+    B1   |   1.00  -1.00   1.00  -1.00
+    B2   |   1.00  -1.00  -1.00   1.00
+ 
+ A1 -(1,   3); A2 -(1,   1); B1 -(1,   3); B2 -(1,   2);
+
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+ EIGENVALUES (EIGV) OF THE MASS WEIGHTED HESSIAN MATRIX AND HARMONIC TRANSVERSE
+ OPTICAL (TO) FREQUENCIES. IRREP LABELS REFER TO SYMMETRY REPRESENTATION
+ ANALYSIS; A AND I INDICATE WHETHER THE MODE IS ACTIVE OR INACTIVE,
+ RESPECTIVELY, FOR IR AND RAMAN; INTEGRATED IR INTENSITIES IN BRACKETS.
+
+ CONVERSION FACTORS FOR FREQUENCIES:
+      1 CM**(-1) =   0.4556335E-05 HARTREE
+      1 THZ      =   0.3335641E+02 CM**(-1)
+
+ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+    MODES         EIGV          FREQUENCIES     IRREP  IR   INTENS    RAMAN
+             (HARTREE**2)   (CM**-1)     (THZ)             (KM/MOL)
+    1-   1   -0.3807E-20      0.0000    0.0000  (B1 )   A (     0.00)   A
+    2-   2   -0.1751E-38      0.0000    0.0000  (A2 )   I (     0.00)   A
+    3-   3    0.4628E-24      0.0000    0.0000  (B2 )   A (     0.00)   A
+    4-   4    0.1859E-23      0.0000    0.0000  (B2 )   A (     0.00)   A
+    5-   5    0.2665E-19      0.0000    0.0000  (A1 )   A (     0.00)   A
+    6-   6    0.3045E-19      0.0000    0.0000  (B1 )   A (     0.00)   A
+    7-   7    0.5575E-04   1638.7570   49.1287  (A1 )   A (     0.00)   A
+    8-   8    0.2985E-03   3791.9372  113.6794  (A1 )   A (     0.00)   A
+    9-   9    0.3149E-03   3894.5217  116.7548  (B1 )   A (     0.00)   A
+
+ NORMAL MODES NORMALIZED TO CLASSICAL AMPLITUDES (IN BOHR)
+
+ FREQ(CM**-1)      0.00      0.00      0.00      0.00      0.00      0.00
+
+ AT.   1 O  X     0.0000    0.0000    0.2500    0.0000    0.0000    0.0000
+            Y     0.2356    0.0000    0.0000    0.0000    0.0000    0.0493
+            Z     0.0000    0.0000    0.0000    0.0000    0.2356    0.0000
+ AT.   2 H  X     0.0000    0.7044    0.0000    0.7044    0.0000    0.0000
+            Y     0.2356    0.0000    0.0000    0.0000    0.0000   -0.3912
+            Z     0.0000    0.0000    0.0000    0.0000    0.2356   -0.5690
+ AT.   3 H  X     0.0000   -0.7044    0.0000    0.7044    0.0000    0.0000
+            Y     0.2356    0.0000    0.0000    0.0000   -0.0000   -0.3912
+            Z     0.0000    0.0000    0.0000    0.0000    0.2356    0.5690
+
+ FREQ(CM**-1)   1638.76   3791.94   3894.52
+
+ AT.   1 O  X     0.0000    0.0000    0.0000
+            Y     0.0000    0.0000   -0.0119
+            Z    -0.0184    0.0087    0.0000
+ AT.   2 H  X     0.0000    0.0000    0.0000
+            Y     0.1113    0.1020    0.0943
+            Z     0.1462   -0.0690   -0.0730
+ AT.   3 H  X     0.0000    0.0000    0.0000
+            Y    -0.1113   -0.1020    0.0943
+            Z     0.1462   -0.0690    0.0730
+
+ *******************************************************************************
+
+ VIBRATIONAL TEMPERATURES (K) [MODE NUMBER;IRREP]
+
+ TO MODES
+  2357.8 [   7;A1 ]  5455.7 [   8;A1 ]  5603.3 [   9;B1 ]
+
+ *******************************************************************************
+
+ HARMONIC VIBRATIONAL CONTRIBUTIONS TO THERMODYNAMIC FUNCTIONS AT GIVEN
+ TEMPERATURE AND PRESSURE:
+
+ (EL = ELECTRONIC ENERGY
+  E0 = ZERO-POINT ENERGY
+  ET = THERMAL CONTRIBUTION TO THE VIBRATIONAL ENERGY
+  PV = PRESSURE * VOLUME
+  TS = TEMPERATURE * ENTROPY)
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ EL            :     -76.422736712925   -2079.568389172658     -200647.86696337
+ E0            :       0.021244405092       0.578089652069          55.77717771
+
+ 
+ WARNING **** THERMOFRQ **** PV TERM COMPUTED ONLY FOR 3D SYSTEMS
+
+ ---------------------
+ -- THERMOCHEMISTRY --
+ ---------------------
+
+ Temperature  298.15 K, Pressure  0.10132500E+00 MPA
+ Rotational symmetry number:   3
+ Moments of inertia (a.u.) and Rotational temperatures (K)
+ with respect to principal axes:
+                          1                   2                     3
+ Moments --            6.376735253311       2.214834959809       4.161900293502
+ Temperatures --      13.582783807247      39.106216902609      20.811122380084
+
+ THERMAL ENERGY           AU                  EV                      J/MOL
+ Translational:        0.001416278906       0.038538908301        3718.43974020
+ Rotational:           0.001416278906       0.038538908301        3718.43974020
+ E0(Vibrational)       0.021244405092       0.578089652069       55777.17770917
+ Vibr. corr.:          0.000002747209       0.000074755345           7.21279504
+ Total:                0.024079710112       0.655242224017       63221.26998938
+
+
+ ENTROPY                  AU/K                EV/K                    J/(MOL*K)
+ Translational:        0.000055151864       0.001500758505         144.80119733
+ Rotational:           0.000015406118       0.000419221774          40.44875611
+ Vibrational:          0.000000010379       0.000000282428           0.02725019
+ Total:                0.000070568360       0.001920262707         185.27720374
+
+ HEAT CAPACITY            mAU/K               mEV/K                   J/(MOL*K)
+ Translational:        0.004750222725       0.129260131817          12.47170800
+ Rotational:           0.004750222725       0.129260131817          12.47170800
+ Vibrational:          0.000072904837       0.001983841484           0.19141162
+ Total:                0.009573350288       0.260504105117          25.13482764
+
+
+ *******************************************************************************
+
+ THERMODYNAMIC FUNCTIONS TAKING INTO ACCOUNT MOLECULAR
+ ROTATIONAL, TRANSLATIONAL AND VIBRATIONAL CONTRIBUTIONS
+
+ AT (T =  298.15 K, P =   0.10132500E+00 MPA):
+
+                          AU/CELL             EV/CELL                 KJ/MOL
+ ET            :       0.002835305020       0.077152571948           7.44409228
+ PV            :       0.000944185937       0.025692605534           2.47895983
+ TS            :       0.021039956610       0.572526326047          55.24039830
+ ET+PV-TS      :      -0.017260465654      -0.469681148565         -45.31734619
+ EL+E0+ET+PV-TS:     -76.418752773486   -2079.459980669154     -200637.40713185
+
+ OTHER THERMODYNAMIC FUNCTIONS:
+
+                      mHARTREE/(CELL*K)     mEV/(CELL*K)              J/(MOL*K)
+ ENTROPY       :       0.070568360256       1.920262706848         185.27720374
+ HEAT CAPACITY :       0.009573350288       0.260504105117          25.13482764
+
+ *******************************************************************************
+ REDUCED MASS OF MODE (AMU)           7   1.08277649025055     
+ REDUCED MASS OF MODE (AMU)           8   1.04507314849178     
+ REDUCED MASS OF MODE (AMU)           9   1.08186924995098     
+
+ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+  CALCULATION OF CUBIC AND QUARTIC TERMS OF THE POTENTIAL-ENERGY SURFACE (PES)
+
+                      M. Ferrabone, M. Rérat, A. Erba
+
+
+            THIRD AND FOURTH ENERGY DERIVATIVES W.R.T. NORMAL MODES
+                             ARE COMPUTED NUMERICALLY
+
+                             SCAN ALONG NORMAL MODES
+              STARTING POINT:  -2 ENDING POINT:  2 STEP:   0.45000
+   (STEP GIVEN AS TIMES OF THE CLASSICAL AMPLITUDE AT THE GROUND STATE ENERGY)
+
+ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+
+ *******************************************************************************
+
+ MODE:     7 (FREQ:   1638.76 CM-1)
+
+ STEP:   0.12197 BOHR
+
+      STEP        ENE         HARM. ENE   N. CYC   DE
+  (CL. AMPL.)   (A.U.)         (A.U.)            (A.U.)
+
+ C   -0.900   0.317910E-02   0.302402E-02      8 -0.9E-12
+ C   -0.450   0.774183E-03   0.756006E-03      8 -0.4E-12
+      0.000  -0.764227E+02  -0.764227E+02                         CENTRAL POINT
+ C    0.450   0.736747E-03   0.756006E-03      8  0.4E-12
+ C    0.900   0.286451E-02   0.302402E-02      8 -0.4E-12
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   7,   7,   7)      =     -6.6048E-02    -288.6747
+ ETA(   7,   7,   7,   7) =     -4.9436E-04      -0.5857
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIAG PES    TELAPSE       42.62 TCPU       42.62
+
+ *******************************************************************************
+
+ MODE:     8 (FREQ:   3791.94 CM-1)
+
+ STEP:   0.08019 BOHR
+
+      STEP        ENE         HARM. ENE   N. CYC   DE
+  (CL. AMPL.)   (A.U.)         (A.U.)            (A.U.)
+
+ C   -0.900   0.812115E-02   0.699732E-02      8  0.3E-13
+ C   -0.450   0.188642E-02   0.174933E-02      8  0.2E-12
+      0.000  -0.764227E+02  -0.764227E+02                         CENTRAL POINT
+ C    0.450   0.163661E-02   0.174933E-02      8  0.5E-12
+ C    0.900   0.610793E-02   0.699732E-02      8  0.6E-13
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   8,   8,   8)      =     -1.4679E+00   -1822.7486
+ ETA(   8,   8,   8,   8) =      3.3138E+00     733.2243
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIAG PES    TELAPSE       85.35 TCPU       85.34
+
+ *******************************************************************************
+
+ MODE:     9 (FREQ:   3894.52 CM-1)
+
+ STEP:   0.07912 BOHR
+
+      STEP        ENE         HARM. ENE   N. CYC   DE
+  (CL. AMPL.)   (A.U.)         (A.U.)            (A.U.)
+
+ C   -0.900   0.729682E-02   0.718662E-02      8 -0.1E-12
+ C   -0.450   0.180668E-02   0.179666E-02      8  0.9E-13
+      0.000  -0.764227E+02  -0.764227E+02                         CENTRAL POINT
+ C    0.450   0.180668E-02   0.179666E-02      8  0.9E-12
+ C    0.900   0.729682E-02   0.718662E-02      8 -0.6E-12
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   9,   9,   9)      =     -7.7462E-10      -0.0000
+ ETA(   9,   9,   9,   9) =      3.5771E+00     750.3256
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIAG PES    TELAPSE      128.04 TCPU      128.03
+
+ *******************************************************************************
+
+ COUPLE OF MODES:     7    8  (FREQs:   1638.76 CM-1,   3791.94 CM-1)
+
+ STEPS:   0.12197   0.08019 BOHR
+
+
+ C    0.450   0.450  -7.642028E+01  -7.642198E+01      8 -0.2E-12
+ C   -0.450  -0.450  -7.642015E+01  -7.641971E+01      8  0.2E-12
+ C   -0.450   0.450  -7.642030E+01  -7.641593E+01      8  0.1E-13
+ C    0.450  -0.450  -7.642020E+01  -7.641064E+01      8  0.6E-12
+ C   -0.900  -0.450  -7.641795E+01  -7.640384E+01      7  0.7E-13
+ C   -0.900   0.450  -7.641779E+01  -7.639552E+01      8 -0.9E-13
+ C    0.900  -0.450  -7.641835E+01  -7.638569E+01      8 -0.7E-13
+ C    0.900   0.450  -7.641794E+01  -7.637435E+01      8  0.5E-12
+ C   -0.450  -0.900  -7.641407E+01  -7.636150E+01      8 -0.2E-12
+ C    0.450  -0.900  -7.641405E+01  -7.634714E+01      8  0.2E-12
+ C   -0.450   0.900  -7.641584E+01  -7.633126E+01      8  0.4E-12
+ C    0.450   0.900  -7.641574E+01  -7.631387E+01      8  0.4E-12
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   7,   7,   8)      =      1.1320E-01     325.2588
+ ETA(   7,   8,   8)      =      3.0560E-02      57.7246
+ ETA(   7,   7,   7,   8) =      2.0762E-01     161.6943
+ ETA(   7,   8,   8,   8) =     -1.7234E-01     -58.0037
+ ETA(   7,   7,   8,   8) =     -5.8238E-01    -298.1688
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MIX PES     TELAPSE      254.99 TCPU      254.97
+
+ *******************************************************************************
+
+ COUPLE OF MODES:     7    9  (FREQs:   1638.76 CM-1,   3894.52 CM-1)
+
+ STEPS:   0.12197   0.07912 BOHR
+
+
+ C    0.450   0.450  -7.642016E+01  -7.642198E+01      8  0.2E-12
+ C   -0.450  -0.450  -7.642023E+01  -7.641971E+01      8 -0.3E-12
+ C   -0.450   0.450  -7.642023E+01  -7.641593E+01      8 -0.6E-12
+ C    0.450  -0.450  -7.642016E+01  -7.641064E+01      8 -0.2E-12
+ C   -0.900  -0.450  -7.641792E+01  -7.640384E+01      8 -0.3E-12
+ C   -0.900   0.450  -7.641792E+01  -7.639552E+01      8 -0.8E-12
+ C    0.900  -0.450  -7.641803E+01  -7.638569E+01      8 -0.4E-12
+ C    0.900   0.450  -7.641803E+01  -7.637435E+01      8 -0.7E-12
+ C   -0.450  -0.900  -7.641495E+01  -7.636150E+01      8  0.7E-13
+ C    0.450  -0.900  -7.641455E+01  -7.634714E+01      8 -0.2E-12
+ C   -0.450   0.900  -7.641495E+01  -7.633126E+01      8 -0.3E-12
+ C    0.450   0.900  -7.641455E+01  -7.631387E+01      8 -0.9E-13
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   7,   7,   9)      =     -1.2193E-09      -0.0000
+ ETA(   7,   9,   9)      =      1.4065E-01     258.6678
+ ETA(   7,   7,   7,   9) =      2.8208E-09       0.0000
+ ETA(   7,   9,   9,   9) =     -1.7641E-09      -0.0000
+ ETA(   7,   7,   9,   9) =     -6.8915E-01    -343.5389
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MIX PES     TELAPSE      381.24 TCPU      381.22
+
+ *******************************************************************************
+
+ COUPLE OF MODES:     8    9  (FREQs:   3791.94 CM-1,   3894.52 CM-1)
+
+ STEPS:   0.08019   0.07912 BOHR
+
+
+ C    0.450   0.450  -7.641964E+01  -7.642099E+01      8 -0.2E-12
+ C   -0.450  -0.450  -7.641863E+01  -7.641574E+01      8 -0.5E-12
+ C   -0.450   0.450  -7.641863E+01  -7.640699E+01      8 -0.6E-12
+ C    0.450  -0.450  -7.641964E+01  -7.639475E+01      8 -0.7E-12
+ C   -0.900  -0.450  -7.641189E+01  -7.637900E+01      9  0.1E-12
+ C   -0.900   0.450  -7.641189E+01  -7.635976E+01      9  0.3E-12
+ C    0.900  -0.450  -7.641545E+01  -7.633702E+01      9  0.4E-12
+ C    0.900   0.450  -7.641545E+01  -7.631078E+01      9  0.2E-12
+ C   -0.450  -0.900  -7.641188E+01  -7.628104E+01      8 -0.2E-12
+ C    0.450  -0.900  -7.641519E+01  -7.624780E+01      8 -0.7E-12
+ C   -0.450   0.900  -7.641188E+01  -7.621107E+01      8 -0.2E-12
+ C    0.450   0.900  -7.641519E+01  -7.617083E+01      8 -0.7E-12
+
+ POTENTIAL DERIVATIVES             (A.U.)         (CM-1)
+
+ ETA(   8,   8,   9)      =     -3.3521E-10      -0.0000
+ ETA(   8,   9,   9)      =     -1.5101E+00   -1825.7064
+ ETA(   8,   8,   8,   9) =     -2.0293E-08      -0.0000
+ ETA(   8,   9,   9,   9) =     -1.7711E-08      -0.0000
+ ETA(   8,   8,   9,   9) =      3.4313E+00     739.2295
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MIX PES     TELAPSE      511.82 TCPU      511.79
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SCANPES     TELAPSE      511.82 TCPU      511.79
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE      511.82 TCPU      511.79
+ EEEEEEEEEE TERMINATION  DATE 13 09 2024 TIME 11:41:07.7
+NODE    0 CPU TIME =       511.794
+    TOTAL CPU TIME =       511.794
+Fri 13 Sep 2024 11:41:07 AM CEST
+total 294996
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 dffit3.dat
+-rw-r--r-- 1 erba users    161520 Sep 13 11:41 diis_err1.pe0
+-rw-r--r-- 1 erba users    188440 Sep 13 11:41 diis_err2.pe0
+-rw-r--r-- 1 erba users    114816 Sep 13 11:41 diis_Fg
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 diis_Sk.pe0
+-rw-r--r-- 1 erba users     26920 Sep 13 11:41 fort.10.pe0
+-rw-r--r-- 1 erba users     14352 Sep 13 11:41 fort.11.pe0
+-rw-r--r-- 1 erba users      8964 Sep 13 11:40 fort.12
+-rw-r--r-- 1 erba users     26920 Sep 13 11:32 fort.13
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.18.pe0
+-rw-r--r-- 1 erba users       312 Sep 13 11:32 fort.19.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.1.pe0
+-rw-r--r-- 1 erba users     40384 Sep 13 11:32 fort.20
+-rw-r--r-- 1 erba users       712 Sep 13 11:41 fort.21
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.28
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.28.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.29
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.29.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.38.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.3.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.40.pe0
+-rw-r--r-- 1 erba users      2544 Sep 13 11:32 fort.61.pe0
+-rw-r--r-- 1 erba users      2336 Sep 13 11:32 fort.62.pe0
+-rw-r--r-- 1 erba users    530368 Sep 13 11:41 fort.65
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.82.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.83.pe0
+-rw-r--r-- 1 erba users     26920 Sep 13 11:41 fort.8.pe0
+-rw-r--r-- 1 erba users         0 Sep 13 11:32 fort.9
+-rw-r--r-- 1 erba users     19368 Sep 13 11:41 fort.95.pe0
+-rw-r--r-- 1 erba users    662959 Sep 13 11:32 FREQINFO.DAT
+-rw-r--r-- 1 erba users      1722 Sep 13 11:32 HESSFREQ.DAT
+-rw-r--r-- 1 erba users      2225 Sep 13 11:32 INPUT
+-rwxr-xr-x 1 erba users 300056536 Sep 13 11:32 Pcrystal-475178
+-rw-r--r-- 1 erba users       700 Sep 13 11:32 SCAN7_1638.7570_DISP_-0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:32 SCAN7_1638.7570_DISP_-0.9000
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_0.9000
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_1.3500
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_1.8000
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_2.2500
+-rw-r--r-- 1 erba users       700 Sep 13 11:37 SCAN7_1638.7570_DISP_2.7000
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_3.1500
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_3.6000
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_4.0500
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_4.5000
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_4.9500
+-rw-r--r-- 1 erba users       700 Sep 13 11:38 SCAN7_1638.7570_DISP_5.4000
+-rw-r--r-- 1 erba users       700 Sep 13 11:33 SCAN8_3791.9372_DISP_-0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:39 SCAN8_3791.9372_DISP_0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:33 SCAN8_3791.9372_DISP_-0.9000
+-rw-r--r-- 1 erba users       700 Sep 13 11:39 SCAN8_3791.9372_DISP_0.9000
+-rw-r--r-- 1 erba users       700 Sep 13 11:39 SCAN8_3791.9372_DISP_1.3500
+-rw-r--r-- 1 erba users       700 Sep 13 11:39 SCAN8_3791.9372_DISP_1.8000
+-rw-r--r-- 1 erba users       700 Sep 13 11:39 SCAN8_3791.9372_DISP_2.2500
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_2.7000
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_3.1500
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_3.6000
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_4.0500
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_4.5000
+-rw-r--r-- 1 erba users       700 Sep 13 11:40 SCAN8_3791.9372_DISP_4.9500
+-rw-r--r-- 1 erba users       700 Sep 13 11:41 SCAN8_3791.9372_DISP_5.4000
+-rw-r--r-- 1 erba users       700 Sep 13 11:34 SCAN9_3894.5217_DISP_-0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:34 SCAN9_3894.5217_DISP_0.4500
+-rw-r--r-- 1 erba users       700 Sep 13 11:34 SCAN9_3894.5217_DISP_-0.9000
+-rw-r--r-- 1 erba users       700 Sep 13 11:34 SCAN9_3894.5217_DISP_0.9000
+-rw-r--r-- 1 erba users      1283 Sep 13 11:41 SCANPES.DAT
+lrwxrwxrwx 1 erba users        66 Sep 13 11:32 SCFOUT.LOG -> /home/erba/Mitoli/MSSC2024/ANHARM/PES_scheme1/H2O_PES_scheme1.out2
