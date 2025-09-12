@@ -42,8 +42,13 @@ quantum-mechanical methods to the study of materials science. Topics include:
 ## 📬 Contact
 
 If you have any questions or need assistance, feel free to contact the tutors maintaining this repository:
-
-- [davide.mitoli@unito.it](mailto:davide.mitoli@unito.it)
-- [giacomo.ambrogio@unito.it](mailto:giacomo.ambrogio@unito.it)
-- [filippo.bodo@unito.it](mailto:filippo.bodo@unito.it)
+- [giacomo.ambrogio@unito.it](mailto:giacomo.ambrogio@unito.it) (KickOff Hands-On, Phonon Dispersion and Thermodynamics)
+- [eleonora.ascrizzi@unito.it](mailto:eleonora.ascrizzi@unito.it) (Electron Transport Properties)
+- [filippo.bodo@unito.it](mailto:filippo.bodo@unito.it) (Equation of State and Mechanical Properties)
+- [laura.bonometti@unito.it](mailto:laura.bonomett@unito.it) (One-Electron Properties)
+- [jacqueskontak.desmarais@unito.it](mailto:jacqueskontak.desmarais@unito.it) (Spin-Orbit Coupling and Non-Collinear DFT)
+- [lorenzo.dona@unito.it](mailto:lorenzo.dona@unito.it) (Dispersion Corrections and Composite Methods)
+- [davide.mitoli@unito.it](mailto:davide.mitoli@unito.it) (GitHub repository, KickOff Hands-On, (An)Harmonic Frequency Calculations) 
+- [chiara.ribaldone@unito.it](mailto:chiara.ribaldone@unito.it) (Spin and Response Properties CPHF/KS)
+- [marcos.riveraalmazo@unito.it](mailto:marcos.riveraalmazo@unito.it) (QTAIM)
 
