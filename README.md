@@ -1,7 +1,7 @@
 # MSSC2025 - Ab Initio Modelling in Solid State Chemistry
 
 <div align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D22AQEuwVpQB5QRtg/feedshare-shrink_2048_1536/B4DZYPCDaEHwAo-/0/1744008924262?e=1759968000&v=beta&t=GYlYXh4isGJCZL73hSJrEJPaFWMOJABZu_H-Xo3IviU" width="35%">
+  <img src="https://mssc.crystalsolutions.eu/wp-content/uploads/2025/02/logo_Full-1024x735.png" width="35%">
 </div>
 
 Welcome to the official GitHub repository of the **MSSC2025** 
